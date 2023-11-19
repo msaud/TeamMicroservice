@@ -1,3 +1,11 @@
+# MicroServiceTeam
+
+This microservice get a request from a different program using text file and return a .json file for weather status.
+
+## API Reference
+
+#### You will need to create your own api_key from openweather website
+
 
 ## How to programmatically REQUEST data: 
 
