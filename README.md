@@ -1,11 +1,14 @@
-# MircroServiceTeam
 
-**How to programmatically REQUEST data:**
-You can request this microservice to run by writing the word “run” into a “request.txt” file.  
-**How to programmatically RECEIVE data:**
+## How to programmatically REQUEST data: 
+
+You can request this microservice to run by writing the word “run” into a “request.txt” file. 
+
+
+## How to programmatically RECEIVE data: 
 The program then will call a function to make an API request and write the results in a “response.json” file.
 
-An example of the response json file will look like this: 
+#.JSON file example:
+
 {
     "coord": {
         "lon": -122.6762,
@@ -53,5 +56,7 @@ An example of the response json file will look like this:
     "cod": 200
 }
 
-**UML sequence diagram**
+## UML sequence diagram
+
+
 ![image](UML.png)
